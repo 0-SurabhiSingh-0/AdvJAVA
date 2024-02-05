@@ -28,7 +28,7 @@ public class LibraryManagementSystem {
         System.out.println("Enter Available Copies: ");
         int copies = sc.nextInt();
 
-        // Assuming all books are initially available
+       
         boolean availability = true;
 
         String insertQuery = String.format("insert into books values('%s', '%s', '%s', %d, %d, %b)", isbn, title, author,
